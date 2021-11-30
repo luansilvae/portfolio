@@ -4,6 +4,7 @@ import Illustration from "../../assets/images/developer.svg";
 
 import {
   Container,
+  Content,
   Left,
   Socials,
   LinkedinIcon,
@@ -14,6 +15,7 @@ import {
 const Intro: React.FC = () => {
   return (
     <Container>
+      <Content>
       <Left>
         <h1>Luan Silva</h1>
         <h2>Desenvolvedor Front-End</h2>
@@ -32,6 +34,7 @@ const Intro: React.FC = () => {
       </Left>
 
       <Img src={Illustration} alt="Ilustração" />
+      </Content>
     </Container>
   );
 };

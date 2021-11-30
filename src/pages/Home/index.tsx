@@ -1,4 +1,5 @@
 import React from "react";
+import About from "../../components/About";
 import Intro from "../../components/Intro";
 
 import {
@@ -9,6 +10,7 @@ const Home: React.FC = () => {
   return (
     <Container>
       <Intro />
+      <About />
     </Container>
   );
 };

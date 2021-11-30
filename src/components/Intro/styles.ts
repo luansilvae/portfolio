@@ -3,19 +3,23 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 export const Container = styled.div`
   width: 100%;
-  max-width: 1250px;
+  background: #101522;
+`;
+
+export const Content = styled.div`
+  max-width: 1300px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 30px;
   margin: 0 auto;
-  padding: 100px 0;
+  padding: 100px 30px;
 
   @media (max-width: 768px) {
     flex-direction: column;
-    padding: 0;
+    padding: 0 20px 30px 20px;
   }
-`;
+`
 
 export const Img = styled.img`
   padding-right: 0;
