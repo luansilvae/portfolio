@@ -40,7 +40,7 @@ export const Left = styled.div`
     color: #a9b3c1;
     font-size: 28px;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 38px;
     margin-top: 20px;
   }
 

@@ -39,8 +39,8 @@ export const AboutSection = styled.div`
 
   p {
     margin-bottom: 35px;
-    font-size: 19px;
-    line-height: 24px;
+    font-size: 20px;
+    line-height: 32px;
     color: #1c2237;
     text-align: left;
   }

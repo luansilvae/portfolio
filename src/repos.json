@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Portfólio",
+    "description": "Site pessoal desenvolvido com ReactJS e Styled-Components.",
+    "github": "https://github.com/luansilvae/portfolio",
+    "external": "https://luansilvae.vercel.app/",
+    "languages": ["React", "Typescript", "Styled-Components"]
+  },
+  {
+    "name": "Mãos à Obra",
+    "description": "Projeto de Conclusão de Curso de Análise e Desenvolvimento de Sistemas.",
+    "github": "https://github.com/luansilvae/maosaobra",
+    "external": "https://maosaobra.vercel.app/",
+    "languages": ["NextJS", "MongoDB", "Styled-Components"]
+  },
+  {
+    "name": "linkdev",
+    "description": "Página com links de mídias sociais.",
+    "github": "https://github.com/luansilvae/linkdev",
+    "external": "https://linkdev.vercel.app/",
+    "languages": ["HTML", "CSS"]
+  },
+  {
+    "name": "Repository Cloner",
+    "description": "Programa que lista e clona repositórios do github.",
+    "github": "https://github.com/luansilvae/repository-cloner",
+    "languages": ["Javascript"]
+  }
+]
