@@ -8,7 +8,7 @@ import { Container, RepoContainer, GithubButton, GithubIcon } from "./styles";
 const Projects: React.FC = () => {
   return (
     <Container id="projects">
-      <h2>Projetos</h2>
+      <h2 data-aos="fade-up">Projetos</h2>
 
       <RepoContainer>
         {repos.map((repo) => (
@@ -23,7 +23,7 @@ const Projects: React.FC = () => {
         ))}
       </RepoContainer>
 
-      <GithubButton>
+      <GithubButton data-aos="fade-up" data-aos-delay="400">
         <a
           href="https://github.com/luansilvae?tab=repositories"
           target="_blank"

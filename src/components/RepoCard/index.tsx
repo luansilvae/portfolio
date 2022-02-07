@@ -26,7 +26,7 @@ const RepoCard: React.FC<RepoProps> = ({
   languages,
 }) => {
   return (
-    <Container data-aos="fade-up">
+    <Container data-aos="fade-up" data-aos-delay="300">
       <TopSide>
         <header>
           <Title href={github} target="_blank">{name}</Title>

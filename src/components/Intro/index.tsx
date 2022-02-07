@@ -16,7 +16,7 @@ const Intro: React.FC = () => {
   return (
     <Container>
       <Content>
-      <Left data-aos="fade-right">
+      <Left data-aos="fade-down">
         <h1>Luan Silva</h1>
         <h2>Desenvolvedor Front-End</h2>
         <Socials>
@@ -33,7 +33,7 @@ const Intro: React.FC = () => {
         </Socials>
       </Left>
 
-      <Img data-aos="zoom-in-up" src={Illustration} alt="Ilustração" />
+      <Img data-aos="fade-down" src={Illustration} alt="Ilustração" />
       </Content>
     </Container>
   );
