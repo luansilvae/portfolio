@@ -2,21 +2,24 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   background: #101522;
-  width: 100%;
-  padding: 30px;
+  margin: 0 auto;
+  padding: 20px 0;
 `;
 
 export const Nav = styled.div`
-  max-width: 1250px;
   margin: 0 auto;
-
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
+  padding: 10px;
+  gap: 20px;
 
-  @media(max-width: 768px) {
-    flex-direction: column;
-    gap: 30px;
+  @media (min-width: 768px) {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+    max-width: 1250px;
   }
 `;
 
@@ -24,12 +27,12 @@ export const Links = styled.ul`
   display: flex;
   height: 100%;
 
-  @media(max-width: 768px) {
+  @media (max-width: 768px) {
     flex-direction: column;
     align-items: center;
     gap: 20px;
   }
-  
+
   a {
     color: #ffffff;
     font-size: 20px;
@@ -38,7 +41,7 @@ export const Links = styled.ul`
     transition: color 200ms ease-in-out;
 
     &:hover {
-      color: #6C63FF;
+      color: #6c63ff;
     }
   }
 `;

@@ -7,19 +7,21 @@ export const Container = styled.div`
 `;
 
 export const Content = styled.div`
-  max-width: 1300px;
+  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-direction: column;
+  width: 100%;
   gap: 30px;
-  margin: 0 auto;
-  padding: 100px 30px;
+  padding: 30px;
 
-  @media (max-width: 768px) {
-    flex-direction: column;
-    padding: 0 20px 30px 20px;
+  @media (min-width: 768px) {
+    flex-direction: row;
+    max-width: 1300px;
+    min-height: calc(100vh - 74px);
   }
-`
+`;
 
 export const Img = styled.img`
   padding-right: 0;
@@ -32,16 +34,15 @@ export const Img = styled.img`
 
 export const Left = styled.div`
   h1 {
-    font-size: 58px;
+    font-size: 52px;
     color: #f7f8f9;
   }
 
   h2 {
-    color: #a9b3c1;
-    font-size: 28px;
+    color: #f7f8f9;
+    font-size: 30px;
     font-weight: 500;
-    line-height: 38px;
-    margin-top: 20px;
+    margin: 10px 0;
   }
 
   @media (max-width: 768px) {
