@@ -11,7 +11,7 @@ const About: React.FC = () => {
         <h2>Sobre mim</h2>
         <p>Meu nome é Luan, sou Técnico em Informática e estudo Análise e Desenvolvimento de Sistemas pela FATEC de Praia Grande. Sou apaixonado por desenvolvimento web, com enfoque em JavaScript e todas as stacks e tecnologias em torno do ecossistema dessa linguagem.</p>
 
-        <ButtonCV href="https://1drv.ms/w/s!Am0QuB1H_SAth7giAyYTmL8vxw94Sw?e=SMaT1U" target="_blank"> <FaCloudDownloadAlt /> Download CV</ButtonCV>
+        <ButtonCV href="https://files.fm/down.php?i=zmwyn9mht" target="_blank"> <FaCloudDownloadAlt /> Download CV</ButtonCV>
       </AboutSection>
     </Container>
   )
